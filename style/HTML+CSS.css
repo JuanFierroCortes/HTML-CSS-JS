@@ -1,0 +1,95 @@
+/* Fondo de la página y tipo de letra */
+body {
+    background-color: #e6f2ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Títulos con un azul más elegante e institucional */
+h1 {
+    color: #003366;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #444; /* Un gris oscuro para que no sea tan fuerte como el negro */
+}
+
+/* La cajita del formulario: ahora con sombra y bordes redondeados */
+form {
+    background-color: white;
+    border: 1px solid #cccccc; /* Borde más suave */
+    border-radius: 10px; /* ¡Truco 1: Bordes redondeados! */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* ¡Truco 2: Sombra suave! */
+    width: 500px;
+    margin: 30px auto; 
+    padding: 30px;
+}
+
+/* Subtítulos con fondo, también redondeados */
+h3 {
+    background-color: #003366;
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+/* Mejoramos el tamaño de las cajas de texto para que ocupen el ancho */
+input[type="text"], 
+input[type="email"], 
+input[type="password"], 
+input[type="tel"], 
+input[type="date"], 
+select {
+    width: 95%; 
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px; /* Cajas de texto redonditas */
+}
+
+/* ¡Truco 3: Efecto cuando haces clic para escribir! */
+input:focus, select:focus {
+    border-color: #003366;
+    outline: none; /* Quita el borde azul por defecto del navegador */
+    background-color: #f4f9ff; /* Se pone un poco azulito al escribir */
+}
+
+/* Contenedor de botones */
+.botones-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Estilo general para ambos botones (sin el borde feo por defecto) */
+input[type="submit"], 
+input[type="reset"] {
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; /* Hace que el cursor cambie a la "manito" */
+}
+
+/* Color inicial del botón Enviar */
+input[type="submit"] {
+    background-color: #28a745; /* Un verde más moderno */
+}
+
+/* ¡Truco 4: Efecto al pasar el mouse sobre el botón verde! */
+input[type="submit"]:hover {
+    background-color: #218838; /* Se pone más oscuro */
+}
+
+/* Color inicial del botón Limpiar */
+input[type="reset"] {
+    background-color: #dc3545; /* Un rojo más moderno */
+}
+
+/* ¡Truco 4: Efecto al pasar el mouse sobre el botón rojo! */
+input[type="reset"]:hover {
+    background-color: #c82333; /* Se pone más oscuro */
+}
