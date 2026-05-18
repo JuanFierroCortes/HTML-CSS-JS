@@ -4,143 +4,120 @@
 <head>
     <meta charset="UTF-8">
     <title>Hoja de Vida - Juan David Fierro Cortes</title>
+    <link rel="stylesheet" href="style/HojaVida+CSS.css">
 </head>
 
-<body bgcolor="#f4f4f4">
+<body>
 
-    <table border="0" width="850" align="center" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" style="box-shadow: 0 0 10px rgba(0,0,0,0.1);">
-        <tr>
+    <div class="cv-container">
+        
+        <div class="sidebar">
+            <div class="profile-img-container">
+                <img src="FOTO.jpeg" class="profile-img" alt="Foto de Juan David">
+            </div>
+
+            <h3>CONTACTO</h3>
+            <p>
+                <b>Teléfono:</b><br>
+                3112768625
+            </p>
+            <p>
+                <b>Correo:</b><br>
+                juanfierro.1645@gmail.com
+            </p>
+            <p>
+                <b>Identificación:</b><br>
+                1.069.714.422
+            </p>
+            <p>
+                <b>Licencia de conducción:</b><br>
+                Categorías A2, BQ y C1
+            </p>
+            <p>
+                <b>Ciudad:</b><br>
+                Fusagasugá - Cundinamarca
+            </p>
+
+            <h3>REFERENCIAS PERSONALES</h3>
+            <p>
+                <b>Milena Vega</b> (Docente)<br>
+                Cel: 3192579068
+            </p>
+            <p>
+                <b>Olga Rojas</b> (Independiente)<br>
+                Cel: 3163041407
+            </p>
+
+            <h3>REFERENCIAS FAMILIARES</h3>
+            <p>
+                <b>Maria Carmen Cortes</b> (Tía)<br>
+                Cel: 3123106672
+            </p>
+            <p>
+                <b>Kevin Alejandro Fierro</b> (Hermano)<br>
+                Cel: 3026168938
+            </p>
+        </div>
+
+        <div class="main-content">
             
-            <td width="300" bgcolor="#2C2F3A" valign="top" style="color: #FFFFFF; padding: 20px;">
-                
-                <div align="center">
-                    <br>
-                    <img src="FOTO.jpeg" width="160" height="160" border="3" style="border-color: #FFFFFF; border-radius: 50%; object-fit: cover;">
-                    <br><br>
-                </div>
+            <h1>JUAN DAVID FIERRO CORTES</h1>
+            <h2 class="subtitle">Estudiante de Ingeniería de Software</h2>
+            
+            <h3>PERFIL PROFESIONAL</h3>
+            <p>
+                Soy una persona con alto grado de responsabilidad y compromiso, dinámica en el desempeño 
+                de mis funciones, con sensibilidad social y capacidad para realizar las tareas asignadas. 
+                Cuento con iniciativa y excelentes relaciones interpersonales, orientado al cumplimiento 
+                de metas y objetivos dentro del desarrollo de software.
+            </p>
 
-                <hr color="#4A4E5A">
+            <h3>FORMACIÓN ACADÉMICA</h3>
+            <table class="education-table">
+                <tr>
+                    <td width="30%"><b>Pregrado:</b></td>
+                    <td>Ingeniería de Software (4to Semestre)<br>Universidad de Cundinamarca</td>
+                </tr>
+                <tr>
+                    <td><b>Técnico:</b></td>
+                    <td>Técnico en Sistemas<br>SENA - Fusagasugá</td>
+                </tr>
+                <tr>
+                    <td><b>Secundaria:</b></td>
+                    <td>Bachiller Académico<br>Inst. José Celestino Mutis</td>
+                </tr>
+            </table>
 
-                <h3>CONTACTO</h3>
-                <p>
-                    <b>Teléfono:</b><br>
-                    3112768625
-                </p>
-                <p>
-                    <b>Correo:</b><br>
-                    juanfierro.1645@gmail.com
-                </p>
-                <p>
-                    <b>Identificación:</b><br>
-                    1.069.714.422
-                </p>
-                <p>
-                    <b>Licencia de conducción:</b><br>
-                    Categorías A2, BQ y C1
-                </p>
-                <p>
-                    <b>Ciudad:</b><br>
-                    Fusagasugá - Cundinamarca
-                </p>
+            <h3>EXPERIENCIA LABORAL</h3>
+            <p>
+                <b>Independiente</b><br>
+                <i>Cargo: Cuidador de adulto mayor (2 años)</i><br>
+                Jefe: Flor Mary Cortes - Tel: 3008845664
+            </p>
 
-                <br>
+            <h3>INFORMACIÓN PERSONAL</h3>
+            <ul style="list-style-type: square;">
+                <li><b>Fecha de Nacimiento:</b> 22 de Marzo de 2004</li>
+                <li><b>Lugar de Nacimiento:</b> Fusagasugá</li>
+                <li><b>Estado Civil:</b> Soltero</li>
+                <li><b>Dirección:</b> Carrera 3 #27A - 15</li>
+            </ul>
 
-                <h3>REFERENCIAS PERSONALES</h3>
-                <p>
-                    <b>Milena Vega</b> (Docente)<br>
-                    Cel: 3192579068
-                </p>
-                <p>
-                    <b>Olga Rojas</b> (Independiente)<br>
-                    Cel: 3163041407
-                </p>
+            <div class="signature-area">
+                __________________________<br>
+                <b>Firma del Aspirante</b>
+            </div>
 
-                <br>
+            <div style="text-align: center; margin-top: 40px; margin-bottom: 20px;">
+                <button id="btn-imprimir" style="padding: 10px 20px; background-color: #2C2F3A; color: white; border: none; border-radius: 5px; cursor: pointer; font-family: inherit; font-weight: bold;">
+                    🖨️ Imprimir Hoja de Vida
+                </button>
+            </div>
 
-                <h3>REFERENCIAS FAMILIARES</h3>
-                <p>
-                    <b>Maria Carmen Cortes</b> (Tía)<br>
-                    Cel: 3123106672
-                </p>
-                <p>
-                    <b>Kevin Alejandro Fierro</b> (Hermano)<br>
-                    Cel: 3026168938
-                </p>
-                <br>
-            </td>
+        </div>
+    </div>
 
-
-            <td width="550" valign="top" style="padding: 30px; color: #333333;">
-                
-                <h1 style="margin-bottom: 5px;">JUAN DAVID FIERRO CORTES</h1>
-                <h3 style="color: #666666; margin-top: 0;">Estudiante de Ingeniería de Software</h3>
-                
-                <br>
-                <hr color="#eeeeee">
-
-                <h3>PERFIL PROFESIONAL</h3>
-                <p align="justify">
-                    Soy una persona con alto grado de responsabilidad y compromiso, dinámica en el desempeño 
-                    de mis funciones, con sensibilidad social y capacidad para realizar las tareas asignadas. 
-                    Cuento con iniciativa y excelentes relaciones interpersonales, orientado al cumplimiento 
-                    de metas y objetivos dentro del desarrollo de software.
-                </p>
-
-                <br>
-
-                <h3>FORMACIÓN ACADÉMICA</h3>
-                <table border="0" width="100%" cellpadding="5">
-                    <tr>
-                        <td width="30%"><b>Pregrado:</b></td>
-                        <td>Ingeniería de Software (4to Semestre)<br>Universidad de Cundinamarca</td>
-                    </tr>
-                    <tr>
-                        <td><b>Técnico:</b></td>
-                        <td>Técnico en Sistemas<br>SENA - Fusagasugá</td>
-                    </tr>
-                    <tr>
-                        <td><b>Secundaria:</b></td>
-                        <td>Bachiller Académico<br>Inst. José Celestino Mutis</td>
-                    </tr>
-                </table>
-
-                <br>
-
-                <h3>EXPERIENCIA LABORAL</h3>
-                <p>
-                    <b>Independiente</b><br>
-                    <i>Cargo: Cuidador de adulto mayor (2 años)</i><br>
-                    Jefe: Flor Mary Cortes - Tel: 3008845664
-                </p>
-
-                <br>
-
-                <h3>INFORMACIÓN PERSONAL</h3>
-                <ul style="list-style-type: square;">
-                    <li><b>Fecha de Nacimiento:</b> 22 de Marzo de 2004</li>
-                    <li><b>Lugar de Nacimiento:</b> Fusagasugá</li>
-                    <li><b>Estado Civil:</b> Soltero</li>
-                    <li><b>Dirección:</b> Carrera 3 #27A - 15</li>
-                </ul>
-
-                <br><br>
-
-                <table border="0" width="100%">
-                    <tr>
-                        <td align="center">
-                            <br><br>
-                            __________________________<br>
-                            <b>Firma del Aspirante</b>
-                        </td>
-                    </tr>
-                </table>
-
-            </td>
-        </tr>
-    </table>
-
-    <br><br>
-
+    <script src="js/HojaVida+JS.js"></script>
 </body>
 
 </html>
