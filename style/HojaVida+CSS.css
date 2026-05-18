@@ -1,0 +1,101 @@
+body {
+    background-color: #f4f4f4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 40px 0;
+}
+
+.cv-container {
+    width: 850px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.15);
+    display: flex;
+    min-height: 1000px;
+}
+
+.sidebar {
+    width: 300px;
+    background-color: #2C2F3A;
+    color: #FFFFFF;
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+
+.profile-img-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-img {
+    width: 160px;
+    height: 160px;
+    border: 3px solid #FFFFFF;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sidebar h3 {
+    border-bottom: 1px solid #4A4E5A;
+    padding-bottom: 8px;
+    margin-top: 30px;
+    font-size: 16px;
+    letter-spacing: 1px;
+}
+
+.sidebar p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+
+.main-content {
+    width: 550px;
+    padding: 50px 40px;
+    color: #333333;
+    box-sizing: border-box;
+}
+
+.main-content h1 {
+    margin: 0 0 5px 0;
+    font-size: 32px;
+    color: #1a1a1a;
+}
+
+.subtitle {
+    color: #666666;
+    margin-top: 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.main-content h3 {
+    color: #2C2F3A;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 5px;
+    margin-top: 35px;
+    font-size: 18px;
+}
+
+.main-content p, .main-content li {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+.education-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.education-table td {
+    padding: 8px 0;
+    vertical-align: top;
+    font-size: 15px;
+}
+
+.signature-area {
+    text-align: center;
+    margin-top: 80px;
+}
